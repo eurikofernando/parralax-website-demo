@@ -1,0 +1,198 @@
+@import "variables.css"; 
+@import "base.css";
+
+
+/***********
+  FIRST-SITE
+************/
+
+.first-part .title  {
+    display: flex;
+    justify-content: center;  
+    padding-bottom: 300px;
+}
+
+.first-part .title h1 {
+    text-shadow: 0.1em  0.1em black;
+    margin-top: 290px;
+    padding: 20px 60px;
+    color: white;
+    background: linear-gradient(90deg, rgb(44, 42, 42) 0%, rgb(77, 78, 78) 100%);
+    letter-spacing: 15px;
+}
+
+
+@media (max-width: 900px) {
+    .first-part .title h1 {
+        text-shadow: 0.1em  0em white ;
+        text-align: center;
+        width: 70%;
+        letter-spacing: 5px;
+        line-height: 25px;
+        color: black;
+        background: linear-gradient(90deg, rgb(105, 104, 104) 0%, rgb(206, 209, 209) 100%);
+    }
+}
+
+
+/*****************
+    CONTENT-SITE
+******************/
+
+.content-site .text {
+    background-color: var(--color-primary);
+    padding: 80px;
+}
+
+.content-site .text .text-area1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: rgb(100, 97, 97);
+    font-size: 30px;
+}
+
+.content-site .text .info {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(80, 79, 79);
+}
+
+/*****************
+    SECOND-PART
+******************/
+
+.second-part {
+    width: 100vw;
+    height: 450px;
+    background: linear-gradient(90deg, rgba(141,141,144,1) 0%, rgba(235,235,241, 0.1) 35%, rgba(203,207,208,0.1) 100%), url(../images/luzes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.second-part .title  {
+    display: flex;
+    justify-content: center;  
+}
+
+.second-part .title h1  {
+    margin-top: 230px;
+    color: rgb(43, 41, 41);
+    font-size: 30px;
+    letter-spacing: 5px;
+} 
+
+.second-part .title h1:hover {
+    padding-left: 20px;
+    border-bottom: 3px solid black;
+    border-left:  3px solid black;
+}
+
+/******************
+    SECOND-SITE
+*******************/
+
+.second-site .text1 {
+    background-color: var(--color-second);
+    padding: 80px;
+}
+
+.second-site .text1 .text-area2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: rgb(218, 214, 214);
+    font-size: 25px;
+}
+
+.second-site .text1 .info {
+    text-align: center;
+    font-size: 18px;
+    color: var(--color-primary);
+}
+
+/******************
+    THREE-PART
+*******************/
+
+.three-part {
+    width: 100vw;
+    height: 450px;
+    background: radial-gradient(circle, rgba(93,88,90,0.5) 0%, rgba(15,17,19,0.8267682072829132) 100%) , url(../images/bridge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.three-part .title  {
+    display: flex;
+    justify-content: center;  
+}
+
+.three-part .title h1  {
+    margin-top: 230px;
+    color: rgb(252, 252, 252);
+    font-size: 30px;
+    letter-spacing: 5px;
+}   
+
+.three-part .title h1:hover {
+    padding-left: 20px;
+    border-bottom: 3px solid var(--color-primary);
+    border-left:  3px solid var(--color-primary);
+}
+
+/******************
+    THREE-SITE
+*******************/
+.three-site .text1 {
+    background-color: var(--color-second);
+    padding: 80px;
+}
+
+.three-site .text1 .text-area2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: rgb(218, 214, 214);
+    font-size: 25px;
+}
+
+.three-site .text1 .info {
+    text-align: center;
+    font-size: 18px;
+    color: var(--color-primary);
+}
+
+/******************
+    FINAL-PART
+*******************/
+.final-part .title  {
+    display: flex;
+    justify-content: center;  
+    padding-bottom: 300px;
+}
+
+.final-part .title h1 {
+    text-shadow: 0.1em  0.1em black;
+    margin-top: 290px;
+    padding: 20px 60px;
+    color: white;
+    background: linear-gradient(90deg, rgb(44, 42, 42) 0%, rgb(77, 78, 78) 100%);
+    letter-spacing: 5px;
+}
+
+@media (max-width: 900px) {
+    .final-part .title h1 {
+        text-shadow: none;
+        text-align: center;
+        width: 70%;
+        letter-spacing: 0px;
+        line-height: 25px;
+        color: black;
+        background: linear-gradient(90deg, rgb(105, 104, 104) 0%, rgb(206, 209, 209) 100%);
+    }
+}

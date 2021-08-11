@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(141,141,144,1) 0%, rgba(235,235,241, 0.1) 35%, rgba(203,207,208,0.1) 100%), url(../images/japan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
